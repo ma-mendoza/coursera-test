@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+
+	font-size: 16px;
+	color: #fff;
+	background-color: white;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+#header-nav {
+	
+	background-color: #A9A9A9;
+	border-radius: 0;
+	border: 0;
+	
+}
+.navbar-brand {
+	
+
+}
+.navbar-brand a {
+	font-family: 'Balsamiq Sans', cursive;
+	color: black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	text-shadow: 1px 1px 1px #222;
+	
+	margin-bottom: 0;
+	line-height: .75;
+	padding-top: 25px;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+.descri {
+
+	background-color: #A9A9A9;
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+	color: black;
+	padding: 15px;
+	margin: 0px;
+	text-align: justify;
+
+	
+}
+.chic {
+	font-size: 29px;
+	font-weight: bold;
+}
+
+
+
+
+h2{
+	color: black;
+	margin-bottom: 30px;
+	font-size: 50px;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.descri{
+	padding: 15px;
+	margin: 0px;
+	text-align: justify;
+
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	
+
+}
+
+@media (max-width: 767px) {
+
+/*.descri {
+	padding: 20px;
+	margin: 20px;
+	text-align: justify;
+} */
+#main-content {
+		margin: 30px;
+	}
+
+
+
+}
